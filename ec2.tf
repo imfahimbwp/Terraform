@@ -3,7 +3,7 @@
   #public_key = var.Ubuntu_key
 #}
 
-resource "aws_instance" "WebSRV" {
+resource "aws_instance" "WebSRV01" {
     ami = var.instance_ami
     instance_type = var.instance_type
     vpc_security_group_ids = [aws_security_group.SG01.id] 
