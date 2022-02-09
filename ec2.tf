@@ -13,7 +13,7 @@ resource "aws_instance" "WebSRV01" {
       "Name" = "Ubuntu Web Server01"
     }
 }*/
-/*just test
+/*just test another test for EC2
 resource "aws_instance" "DBSRV" {
     ami = var.instance_ami
     instance_type = var.instance_type
