@@ -1,2 +1,27 @@
 # Local .terraform directories
 **/.terraform/*
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# logs
+*.log
+
+# Directories
+.terraform/
+.vagrant/
+
+# SSH Keys
+*.pem
+
+# Backup files
+*.bak
+
+# Ignored Terraform files
+*gitignore*.tf
+
+#copied from the following link
+#https://github.com/hashicorp/terraform-guides/blob/master/.gitignore
+#https://github.com/github/gitignore/blob/main/Terraform.gitignore
