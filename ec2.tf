@@ -2,7 +2,7 @@
   #key_name   = "Ubuntu-key"
   #public_key = var.Ubuntu_key
 #}
-
+/*
 resource "aws_instance" "WebSRV01" {
     ami = var.instance_ami
     instance_type = var.instance_type
@@ -12,7 +12,7 @@ resource "aws_instance" "WebSRV01" {
     tags = {
       "Name" = "Ubuntu Web Server01"
     }
-}
+}*/
 /*
 resource "aws_instance" "DBSRV" {
     ami = var.instance_ami
